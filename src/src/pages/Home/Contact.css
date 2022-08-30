@@ -1,0 +1,137 @@
+#project  .row  img{
+    height: 600px;
+    width: 300px;
+  
+  
+}
+#contract .container{
+    display: flex;
+  
+    align-items: center;
+    flex-flow:column;
+ 
+
+
+}
+#contract .container h1{
+    color:black;
+    margin-left: 20px;
+}
+#contract .container center  h1::after{
+  /* content: "touch me"; */
+  font-size: 20px;
+  position: absolute;
+   left:50%;
+  bottom:-21px;
+  height: 20px;
+  background: white;
+  z-index: 10000;
+  transform: translateX(-50%);
+
+
+}
+#contract .container .row{
+  width: 100%;
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:center;
+
+}
+.contract-col1{
+  background-image:url("../../assests/bgg.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  clip-path:circle(100% at 0% 50%);
+}
+.contract-col1 h3{
+  color:white;
+  font-weight:600;
+  font-size:2.5rem;
+}
+.contract-col1 .p{
+  color:white;
+  width: 80%;
+  font-size: 16px;
+  font-style: italic;
+}
+.contract-col1 p{
+  color:white;
+  font-size: 16px;
+  font-style: italic;
+}
+.contract-col1 b{
+  color:white;
+  font-size:1.5rem;
+}
+.contact-icone{
+display: flex;
+margin-top: 30px;
+
+
+}
+.contact-icone i{
+    font-size: 3rem;
+    color:#CA003A;
+}
+.i-p{
+  margin-left:20px
+}
+.contract-2{
+  margin-bottom: 50px;
+}
+#contract .name-email{
+  width: 100%;
+
+
+}
+#contract input{
+  height: 30px;
+  width: 80%;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-left:10px ;
+  border: none;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: black;
+}
+#contract .name-email input{
+  height: 30px;
+  width: 40%;
+  margin-left: 20px;
+  padding-left:10px ;
+  border: none;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: black;
+}
+#contract textarea{
+  width: 80%;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding:10px ;
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: black;
+}
+#contract input{
+  color:white;
+}
+#contract textarea{
+  color:white;
+}
+#contract button{
+  width: 120px;
+  padding:10px;
+  color:white;
+  background-color: #CA003A;
+  border-radius: 30px;
+  border:none;
+  margin-left:20px;
+  margin-top:20px;
+}

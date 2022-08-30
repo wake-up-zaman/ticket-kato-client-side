@@ -1,0 +1,174 @@
+.BusListContainer{
+    margin-top: 70px;
+}
+
+.busRoute{
+    font-size: bolder;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+
+}
+
+.listContainer{
+    display: flex;;
+    justify-content: center;
+    margin-top: 20px;
+
+
+}
+.mainRoute{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+}
+.routeNameDate{
+    background-color: #2C4966;
+
+    width: 100%;
+
+    padding: 10px;
+
+}
+
+.listWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 60px;
+
+}
+
+.listSearch{
+    flex: 1;
+    /* background-color: #293C5A; */
+    background-color: #2C4966;
+    padding: 20px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    height: max-content;
+
+}
+
+.IsTitle{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.IsItem{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.IsItem>label{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.IsItem>input{
+    height: 30px;
+    border: none;
+    padding: 5px;
+}
+.IsItem>span{
+    height: 30px;
+    border: none;
+    padding: 5px;
+    background-color: white;
+    color: black;
+}
+.listResult{
+    flex: 2;
+}
+
+.IsOptions{
+    padding: 10px;
+}
+.IsOptionInput{
+    width: 50px;
+}
+.IsOptionText{
+    font-size: 15px;
+}
+.IsOptionItem{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: aliceblue;
+    font-size:12px;
+}
+
+.listSearch>button{
+    padding: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 100%;
+    font-size: 500;
+    cursor: pointer;
+}
+.listSearch>button:hover{
+    padding: 10px;
+    background-color: #16e9db;
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 100%;
+    font-size: 500;
+    cursor: pointer;
+}
+
+.refine{
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.filterTitle{
+    color: #17c2f1;
+    font-size: 20px;
+    margin: 5px;
+}
+.filterLine{
+    height: 2px;
+    color: #ffffff;
+    border: 1px solid #17c2f1;
+}
+.filterProperty>p{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.travelDate{
+    margin-right: 100px;
+    font-size: 20px;
+    color: #17c2f1;
+    margin-bottom: 0px;
+}
+.returnDate{
+    font-size: 20px;
+    color: #17c2f1;
+    margin-bottom: 0px;
+}
+
+.containerOfBus{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+
+.dateOfTravel{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 0px;
+    width: fit-content;
+    padding: 12px;
+}
+.dateMain{
+    display: flex;
+    justify-content: center;
+
+}

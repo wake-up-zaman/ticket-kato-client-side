@@ -1,0 +1,102 @@
+.reserve {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.418);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .rContainer {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    position: relative;
+    width: 300px;
+    border-radius: 20px;
+    left: 100px;
+    top: 50px;
+
+  }
+  .seatTitle{
+    text-align: center;
+    margin-left: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0071c2;
+  }
+  .rClose {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .rItem {
+    /* display: flex; */
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    align-items: center;
+    padding: 20px;
+    margin-left: 20px;
+  }
+  
+  .rInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .rTitle {
+    font-weight: 500;
+  }
+  
+  .rDesc {
+    font-weight: 300;
+  }
+  
+  .rMax {
+    font-size: 12px;
+  }
+  
+  .rPrice {
+    font-weight: 500;
+  }
+  
+  .rSelectRooms{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 8px;
+    color: gray;
+  }
+  
+  .room{
+    display: flex;
+    flex-direction: column;
+  }
+  .seatName{
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  .rButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .chkBox{
+    height: 14px;
+    width: 14px;
+    color: #0071c2;
+  }

@@ -1,0 +1,30 @@
+.light-theme {
+  --text-color: #000000;
+  --bg-color: #ffffff;
+  --slider-bg: #A4638D;
+  --business-bg: lightBlue;
+  --footer-bg: #424445;
+}
+
+.dark-theme {
+  --text-color: #ffffff;
+  --bg-color: #000000;
+  --slider-bg: #1E293B;
+  --business-bg: #001232;
+  --footer-bg: #212225;
+}
+
+h1 {
+  color: var(--text-color);
+}
+
+.content-bg-color {
+  background-color: var(--bg-color);
+}
+
+.chackbox {
+  position: absolute;
+  top: 20;
+  right: 20;
+  z-index: 10000000;
+}

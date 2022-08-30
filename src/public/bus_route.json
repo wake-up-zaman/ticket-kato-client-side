@@ -1,0 +1,209 @@
+[
+    {
+        "operator_name": "Hanif Enterprise",
+        "bus_class":" Hino 1J Pluss",
+        "bus_type":"AC Business",
+        "coach_number":"111",
+        "email": "Rangpur",
+        "departure_time": "07:00 AM",
+        "arrival_time": "02:00 PM",
+        "available_seats":40,
+        "price":"1300",
+        "boarding-point":"Kamarpara Bus Point",
+        "dropping-point":"Technical Bus Point"
+    },
+    {
+        "operator_name": "S.R Travels (Pvt) Ltd",
+        "bus_class":" Hyundai Universe",
+        "bus_type":"AC Business",
+        "coach_number":"112",
+        "email": "Rangpur",
+        "departure_time": "09:00 AM",
+        "arrival_time": "04:00 PM",
+        "available_seats":30,
+        "price":"1200",
+        "boarding-point":"Kamarpara Bus Point",
+        "dropping-point":"Technical Bus Point"
+    },
+    {
+
+        "operator_name": "Agomony Express",
+        "bus_class":" Scania",
+        "bus_type":"AC",
+        "coach_number":"211",
+        "email": "Rangpur",
+        "departure_time": "10:00 AM",
+        "arrival_time": "05:00 PM",
+        "available_seats":20,
+        "price":"1300",
+        "boarding-point":"Kamarpara Bus Point",
+        "dropping-point":"Technical Bus Point"
+    },
+    {
+        "operator_name": "Ena Transport (Pvt) Ltd",
+        "bus_class":" Hino 1J Pluss",
+        "bus_type":"Non AC",
+        "coach_number":"411",
+        "email": "Rangpur",
+        "departure_time": "10:00 AM",
+        "arrival_time": "06:00 PM",
+        "available_seats":40,
+        "price":"700",
+        "boarding-point":"Kamarpara Bus Point",
+        "dropping-point":"Technical Bus Point"
+    },
+    {
+
+        "operator_name": "Nabil Paribahan",
+        "bus_class":"AK1J Super Plus",
+        "bus_type":"Non AC",
+        "coach_number":"112",
+        "email": "Rangpur",
+        "departure_time": "11:00 AM",
+        "arrival_time": "07:00 PM",
+        "available_seats":40,
+        "price":"700",
+        "boarding-point":"Kamarpara Bus Point",
+        "dropping-point":"Technical Bus Point"
+    },
+    {
+
+        "operator_name": "National Travels",
+        "bus_class":" Hino 1J Pluss",
+        "bus_type":"AC Business",
+        "coach_number":"111",
+        "email": "Rajshahi-Sylhet",
+        "departure_time": "07:00 AM",
+        "arrival_time": "02:00 PM",
+        "available_seats":25,
+        "price":"1300",
+        "boarding-point":"Rajshahi New Market",
+        "dropping-point":"Mohakhali Bus Point"
+    },
+    {
+
+        "operator_name": "Akota Express",
+        "bus_class":" Hyundai Universe",
+        "bus_type":"AC Business",
+        "coach_number":"112",
+        "email": "Rajshahi-Sylhet",
+        "departure_time": "09:00 AM",
+        "arrival_time": "04:00 PM",
+        "available_seats":30,
+        "price":"1200",
+        "boarding-point":"Rajshahi New Market",
+        "dropping-point":"Mohakhali Bus Point"
+    },
+    {
+
+        "operator_name": "Shah Ali Paribahan",
+        "bus_class":" Scania",
+        "bus_type":"AC",
+        "coach_number":"211",
+        "email": "Rajshahi-Sylhet",
+        "departure_time": "10:00 AM",
+        "arrival_time": "05:00 PM",
+        "available_seats":20,
+        "price":"1300",
+        "boarding-point":"Rajshahi New Market",
+        "dropping-point":"Mohakhali Bus Point"
+    },
+    {
+
+        "operator_name": "Shyamoli Paribahan",
+        "bus_class":" Hino 1J Pluss",
+        "bus_type":"Non AC",
+        "coach_number":"411",
+        "email": "Rajshahi-Sylhet",
+        "departure_time": "10:00 AM",
+        "arrival_time": "06:00 PM",
+        "available_seats":15,
+        "price":"700",
+        "boarding-point":"Rajshahi New Market",
+        "dropping-point":"Mohakhali Bus Point"
+    },
+    {
+
+        "operator_name": "Nabil Paribahan",
+        "bus_class":"AK1J Super Plus",
+        "bus_type":"Non AC",
+        "coach_number":"112",
+        "email": "Rajshahi-Sylhet",
+        "departure_time": "11:00 AM",
+        "arrival_time": "07:00 PM",
+        "available_seats":40,
+        "price":"700",
+        "boarding-point":"Rajshahi New Market",
+        "dropping-point":"Mohakhali Bus Point"
+    },
+    {
+
+        "operator_name": "Soudia Coach Service",
+        "bus_class":" Hino 1J Pluss",
+        "bus_type":"AC Business",
+        "coach_number":"111",
+        "email": "Chattogram",
+        "departure_time": "07:00 AM",
+        "arrival_time": "02:00 PM",
+        "available_seats":10,
+        "price":"1300",
+        "boarding-point":"Dampara Bus Point",
+        "dropping-point":"Abdullahpur Bus Point"
+    },
+    {
+
+        "operator_name": "Green Line Paribahan",
+        "bus_class":" Hyundai Universe",
+        "bus_type":"AC Business",
+        "coach_number":"112",
+        "email": "Chattogram",
+        "departure_time": "09:00 AM",
+        "arrival_time": "04:00 PM",
+        "available_seats":30,
+        "price":"1200",
+        "boarding-point":"Dampara Bus Point",
+        "dropping-point":"Abdullahpur Bus Point"
+    },
+    {
+
+        "operator_name": "Agomony Express",
+        "bus_class":" Scania",
+        "bus_type":"AC",
+        "coach_number":"211",
+        "email": "Chattogram",
+        "departure_time": "10:00 AM",
+        "arrival_time": "05:00 PM",
+        "available_seats":20,
+        "price":"1300",
+        "boarding-point":"Dampara Bus Point",
+        "dropping-point":"Abdullahpur Bus Point"
+    },
+    {
+
+        "operator_name": "Ena Transport (Pvt) Ltd",
+        "bus_class":" Hino 1J Pluss",
+        "bus_type":"Non AC",
+        "coach_number":"411",
+        "email": "Chattogram",
+        "departure_time": "10:00 AM",
+        "arrival_time": "06:00 PM",
+        "available_seats":40,
+        "price":"700",
+        "boarding-point":"Dampara Bus Point",
+        "dropping-point":"Abdullahpur Bus Point"
+    },
+    {
+
+        "operator_name": "Hanif Enterprise",
+        "bus_class":"AK1J Super Plus",
+        "bus_type":"Non AC",
+        "coach_number":"112",
+        "email": "Chattogram",
+        "departure_time": "11:00 AM",
+        "arrival_time": "07:00 PM",
+        "available_seats":40,
+        "price":"700",
+        "boarding-point":"Dampara Bus Point",
+        "dropping-point":"Abdullahpur Bus Point"
+    }
+]

@@ -1,0 +1,209 @@
+.home{
+    background-image: linear-gradient(to right, #00052D ,#000638, #010847);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding:10rem 5rem;
+    
+}
+
+.soler-system{
+    background-color: pink;
+}
+.air-animation{
+    
+    animation: ani01 2s linear infinite;
+  
+}
+
+.timer{
+    display:flex;
+   
+    position: relative;
+    animation-name:anima1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-timing-function: ease-in-out;
+}
+.line{
+    display: flex;
+     align-items: center;
+    justify-content: center;
+   
+}
+@keyframes anima1{
+    0%{left:0%;}
+    100%{left:80%}
+  }
+  
+  .card-about-about{
+    background-color: transparent;
+  }
+.card-about h1{
+    font-size:55px;
+    color:#28ACA2;
+}
+.card-about  p span{
+    background-image: linear-gradient(90deg,#CBF231,#E3F891);
+    background-clip: text;
+    color: transparent;
+     
+}
+.card-about  h1 span{
+    background-image: linear-gradient(90deg,#CBF231,#E3F891);
+  background-clip: text;
+    color: transparent; 
+      
+}
+.card-about p{
+    width: 500px;
+    line-height: 38px;
+    color:#2EBBE5;
+    font-size:25px ;
+}
+.card-about .button{
+    width:210px;height:60px;
+    background-image:linear-gradient(90deg,#CBF231,#E3F891) ;
+    font-size: 20px;
+    font-weight: 700;
+ 
+}
+.card-about .button2{
+    width:210px;height:60px;
+    background:transparent;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2EBBE5;
+    margin-left: 50px;
+    border: 2px solid #2EBBE5;
+}
+.space-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height:100%;
+    width: 100%;
+   
+}
+.space-body span{
+    display: inline-block;
+    position:absolute;
+    transform: translate(-50%,-50%)!important;
+    border-radius: 50%;
+}
+.sun{
+    width: 80px;
+    height: 80px;
+    background-image:linear-gradient(90deg,#CBF231,#E3F891) ;
+    z-index: 999;
+}
+.planet{
+    background-color: transparent;
+    border: 4px solid rgba(255,255,255,.5);
+    animation: animate 10s linear infinite;
+}
+.space-body:hover .planet1::before{
+     transform:translateY(-165px);
+
+}
+.space-body:hover .planet1::after{
+     transform:translateY(165px);
+
+}
+.space-body:hover .planet1::before{
+     transform:translateY(-165px);
+
+}
+.space-body:hover .planet2::after{
+     transform:translateY(-380px);
+
+}
+.space-body:hover .planet2::before{
+     transform:translateY(380px);
+
+}
+.space-body:hover .planet3::after{
+    transform:translate(-230px,235px)
+    
+
+}
+.space-body:hover .planet3::before{
+    transform:translate(500px,-170px)
+    
+
+}
+
+.planet1{
+    width: 210px;
+    height: 210px;
+ 
+}
+.planet2{
+    width: 410px;
+    height: 410px;
+}
+.planet3{
+    width: 610px;
+    height: 610px;
+    position:relative;
+}
+
+.space-body span::before,.space-body span::after{
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(to right, #C2F1FF,#5CD9FF);
+    border-radius: 50%;
+}
+.planet1::before{
+    width: 40px;
+    height: 40px;
+    bottom: 6px;
+    left: 20px;
+    background-color: #979797;
+    transition-duration:2s;
+     
+}
+.planet1::after{
+    width: 30px;
+    height: 30px;
+    top: 6px;
+    right: 20px;
+    background-color: #979797;
+    
+    transition-duration:2s;
+}
+
+.planet2::before{
+    width: 40px;
+    height: 40px;
+    top: 4px;
+    left: 100px;
+    background-color: #979797;
+    transition-duration:2s;
+}
+.planet2::after{
+    width: 40px;
+    height: 40px;
+    bottom: 6px;
+    right: 100px;
+    background-image: linear-gradient(to right, #C2F1FF,#5CD9FF);
+    transition-duration:2s;
+}
+.planet3::before{
+    width: 60px;
+    height: 60px;
+    top: 200px;
+    left: -10px;
+    position:absolute;
+    background-image: linear-gradient(to right, #C2F1FF,#5CD9FF);
+    transition-duration:2s;
+}
+.planet3::after{
+    width: 50px;
+    height: 50px;
+    bottom: 200px;
+    right: 0px;
+    background-image: linear-gradient(to right, #C2F1FF,#5CD9FF);
+    transition-duration:2s;
+}

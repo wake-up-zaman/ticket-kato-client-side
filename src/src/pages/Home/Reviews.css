@@ -1,0 +1,108 @@
+.slider-div {
+    width: 80%;
+}
+
+.faka {
+    color: rgb(193, 182, 182);
+
+}
+
+.fill {
+    color: goldenrod;
+}
+
+.owl-slider {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--slider-bg) !important;
+}
+
+.owl-theme {
+    width: 90%;
+    margin: 0 auto;
+    /* padding-top: 20px;
+    padding-bottom: 10px; */
+}
+
+.reviewImg {
+    /* padding: 20px 20px; */
+}
+
+.reviewImg img {
+    width: 100px !important;
+    height: 100px;
+    border-radius: 100%;
+    margin: 0 auto;
+    /* margin-top: -80px; */
+
+}
+
+.review-container {
+    background-color: var(--slider-bg);
+    padding: 30px;
+    color: #92A1B6;
+}
+
+.addReview {
+    background-color: rgb(57, 182, 184);
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 18px;
+}
+
+.addReview:hover {
+    background-color: rgb(7, 218, 255);
+    color: #ffffff;
+}
+
+.review {
+    background-color: #92A1B6;
+    column-gap: 20px;  
+    padding-top: 10px;  
+}
+
+.reviews {
+    background-color: #001232;
+    border-radius: 0;
+    height: 60% 
+}
+
+.star {
+    padding-right: 2px;
+    font-size: medium;
+    color: #EEBD1F;
+}
+
+.name {
+    color: #2CC8A0;
+}
+
+.card-body h5 {
+    color: rgb(223, 227, 231) !important;
+}
+.reviews {
+    height: 25rem;
+}
+
+
+@media (max-width:700px) {
+    .reviewImg {
+        padding: 20px 20px;
+    }
+
+    .reviewImg img {
+        width: 80px !important;
+        height: 80px;
+        border-radius: 100%;
+        margin: 0 auto;
+        margin-top: -80px;
+
+    }
+
+}

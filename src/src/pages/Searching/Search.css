@@ -1,0 +1,213 @@
+.search-header {
+    background-color: #001232;
+}
+
+.ticketTitle{
+    font-size: 23px;
+    font-weight: bold;
+    color: #39B6B8;
+    margin: 0px;
+}
+.search-container {
+    position: relative;
+    background-color: #001232;
+    width: 75%;
+}
+
+.search {
+    background-color: var(--business-bg);
+}
+
+.search-title h3 {
+    color: rgb(57, 182, 184) !important;
+}
+
+.search-main {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.search-icon-container {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    width: 700px;
+}
+
+
+.search-icon {
+    width: 90px;
+    height: 35px;
+
+}
+
+/* .search-icon:hover {
+    width: 90px;
+    height: 35px;
+    color: rgb(7, 218, 255);
+
+    cursor: pointer;
+    
+} */
+
+.search-icon-name {
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+    margin-bottom: 0px;
+
+}
+
+/* .search-icon-name:hover{
+    color: none;
+} */
+.search-content {
+    font-weight: bold;
+}
+
+.departing,
+.returning {
+    width: 200px;
+    height: 37px;
+    border-radius: 5px;
+    border: 1px solid #c5c0c0;
+    z-index: 2;
+}
+
+.search-button {
+    background-color: rgb(57, 182, 184);
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    padding: 0px;
+
+}
+
+.search-button:hover {
+    background-color: rgb(7, 218, 255);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    padding: 0px;
+
+}
+
+.from-text {
+    margin-left: 47px;
+    position: absolute;
+    top: 300px;
+    background-color: #ffffff;
+    z-index: 2;
+    border: 1px solid rgb(237, 242, 243);
+    border-radius: 5px;
+
+}
+
+.from-text2 {
+    margin-left: 305px;
+    position: absolute;
+    top: 300px;
+    background-color: #ffffff;
+    z-index: 2;
+    border: 1px solid rgb(237, 242, 243);
+    border-radius: 5px;
+}
+
+.To-text {
+    margin-left: 250px;
+}
+
+.suggestion {
+    cursor: pointer;
+    padding: 5px;
+    width: 213px;
+    /* border-right: 1px solid rgb(57, 182, 184);
+    border-left: 1px solid rgb(57, 182, 184);
+    border-bottom: 1px solid rgb(57, 182, 184); */
+    border-radius: 5px;
+
+}
+
+.suggestion:hover {
+    background-color: #F2F2F2;
+    color: rgb(57, 182, 184);
+    border-radius: 5px;
+}
+
+.search-bar {
+    color: rgb(57, 182, 184);
+    cursor: pointer;
+}
+
+.search-bar:hover {
+    color: crimson;
+    cursor: pointer;
+}
+
+.active {
+    color: rgb(249, 39, 119);
+}
+
+.form-control1 {
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+
+
+.flight-info {
+    color: #001232;
+}
+
+
+/*------busList-------*/
+
+.busList{
+    margin-top: 100px;
+}
+
+.bus-name{
+    color: #070b10!important;
+}
+.route-name{
+    color: crimson;
+}
+
+@media screen and (max-width: 580px) {
+    .search-container {
+        position: relative;
+        background-color: #001232;
+        width: 100%;
+        background-color: #ffff;
+    }
+    .search-content{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+    .search-icon-container {
+        border-radius: 20px;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+        width: 100%;
+    }
+    .search-title{
+        margin-top: 20px;
+    }
+    .search-button{
+        margin-bottom: 20px;
+    }
+  
+  }

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Marong lee",
+        "photoUrl": "https://i.ibb.co/hDRHhdy/attitude-girl-profile-pic-min.jpg",
+        "comment": "This is such a very useful application!",
+        "ratings": 4.5
+    },
+    {
+        "id": 2,
+        "name": "Jhoe Biden",
+        "photoUrl": "https://i.ibb.co/RTFC8Tc/image-url-https-static-onecms-io-wp-content-uploads-sites-20-2022-06-30-Joe-Biden-02.jpg",
+        "comment": "Your management system is organised!",
+        "ratings": 4.5
+    },
+    {
+        "id": 3,
+        "name": "Leo Marie",
+        "photoUrl": "https://i.ibb.co/S56kBdG/louise-loe-profile-image.jpg",
+        "comment": "I satisfied to yours services!",
+        "ratings": 4.5
+    }
+]

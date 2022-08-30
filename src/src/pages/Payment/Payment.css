@@ -1,0 +1,141 @@
+.journeyInfo{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+
+}
+.seatId{
+    color: rgb(9, 11, 11);
+    font-weight: bold;
+    margin: 0px;
+    padding: 10px;
+    font-size: 16px;
+}
+.journeyDetails{
+    border: 1px solid rgb(189, 182, 182);
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 100px;
+    background-color: #E4E4E4;
+    height:auto
+}
+.paymentDetails{
+    border: 1px solid black;
+    padding: 50px;
+}
+.jTitle{
+    background-color: #293C5A;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 0px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.jContainer{
+    background-color: #e4e4e4;
+    margin: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px;
+    padding-top: 10px;
+}
+.jDate{
+    font-size: 16px;
+    color: rgb(240, 14, 101);
+    margin: 0px;  
+    padding: 10px;
+    font-weight: bold;
+    
+
+}
+.jOperator{
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px;
+    color: rgb(7, 139, 255);
+    font-weight: bold;
+}
+.route{
+    font-size: 18px;
+    padding: 10px;
+    margin: 0px;  
+    background-color: white;
+}
+
+.jDep{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 10px;
+    font-size: 16px;  
+    color: rgb(240, 14, 101);
+    font-weight: bold;
+}
+.jArr{
+    font-size: 16px;
+    padding: 10px;
+    margin: 0px;  
+
+}
+.jCoa{
+    margin: 0px;  
+    background-color: white;
+    padding: 10px;
+    font-size: 16px;
+}
+.jTic{
+    font-size: 16px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    margin: 0px;  
+
+
+}
+.jp{
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;  
+    background-color: white;
+    color: rgb(7, 139, 255);
+    font-weight: bold;
+}
+.jp2{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.passengerDetails{
+    margin-left: 100px;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.pTitle{
+    font-size: 20px;
+    padding: 10px;
+    background-color: #293C5A;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.nameField{
+    border: 1px solid black;
+    width: 80%;
+    border-radius: 5px;
+    padding: 5px;
+}
+.payment{
+    font-size: 18px;
+    background-color: #293C5A;
+    padding: 10px;
+    color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+/*-----------payment----------*/
+

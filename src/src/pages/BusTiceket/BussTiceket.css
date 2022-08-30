@@ -1,0 +1,32 @@
+.busTiceket{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--bg-color);
+}
+h1,h2,h3,h4,h5,p,span{
+    color:var(--text-color)
+}
+.BusTicket{
+    width:100%;
+    /* height:80vh; */
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    /* background-color: yellow; */
+}
+.filter{
+    background-color:gray
+}
+.filter div{
+    margin-left: 40px;
+}
+.filter div li{
+    list-style: none;
+    font-size: 22px;
+}
+.Each-bus{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    border: solid skyblue 5px;
+    margin: 30px;
+}
